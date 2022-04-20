@@ -22,8 +22,7 @@ class TikTok:
             self.video_id = input('> TikTok URL: ').split('/')[5]
         except IndexError:
             print(
-                '\nInvalid TikTok URL format.\nFormat expected: https://www.tiktok.com/@username/vi'
-                'deo/1234567891234567891'
+                '\nInvalid TikTok URL format.\nFormat expected: https://www.tiktok.com/@leblogdeturtle/video/7075729900618910982
             )
             os.system('title [TikTok Shares Botter] - Restart required')
             os.system('pause >NUL')
